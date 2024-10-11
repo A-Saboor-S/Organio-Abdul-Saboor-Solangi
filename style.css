@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   font-family: "Poppins", sans-serif;
+   color: rgb(1, 1, 71);
+}
+
+.bg {
+   background-color: rgb(96, 163, 51);
+
+}
+
+body {
+   background-color: rgb(252, 252, 252);
+}
+
+
+.logos {
+   background-color: rgb(175, 209, 153);
+   border-radius: 20px;
+   border: black solid 1px;
+   padding: 0px 7px;
+}
+
+
+.logos:hover {
+   background-color: white;
+   border-radius: 20px;
+   border: black solid 1px;
+   padding: 0px 7px;
+}
+
+
+.logos-1 {
+   background-color: white;
+   border-radius: 20px;
+   border: black solid 1px;
+   padding: 0px 7px;
+}
+
+
+.logos-1:hover {
+   background-color: rgb(175, 209, 153);
+   border-radius: 20px;
+   border: black solid 1px;
+   padding: 0px 7px;
+}
+
+.pa {
+   font-size: 12px;
+}
+
+.suc-word {
+   font-weight: 700;
+   font-size: 5vw;
+}
+
+.text {
+   color: rgb(255, 105, 36);
+}
+
+.back-img {
+   background-image: url(./images/banner.jpg);
+   width: 100%;
+   height: 80vh;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.tests {
+   position: absolute;
+   top: 160px;
+   left: 20%;
+
+
+}
+
+.btn-1 {
+   margin: 20px 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: rgb(255, 105, 36);
+   color: white;
+   padding: 12px 40px;
+   font-size: 20px;
+}
+
+.btn-1:hover {
+   margin: 20px 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: green;
+   color: white;
+   padding: 12px 40px;
+   font-size: 20px;
+}
+
+.btn-2 {
+   margin: 20px 10px;
+   border: green 2px solid;
+   border-radius: 4px;
+   background: none;
+   color: white;
+   padding: 12px 40px;
+   font-size: 20px;
+}
+
+.btn-2:hover {
+   margin: 20px 10px;
+   border: green 2px solid;
+   border-radius: 4px;
+   background-color: green;
+   color: white;
+   padding: 12px 40px;
+   font-size: 20px;
+}
+
+
+
+.btn-7 {
+   margin: 5px 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: rgb(253, 120, 58);
+   color: white;
+   padding: 8px 10px;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.btn-7:hover {
+   margin: 5px 10px;
+   border: none;
+   border-radius: 4px;
+   background-color: rgb(252, 93, 20);
+   color: white;
+   padding: 8px 10px;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
