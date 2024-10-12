@@ -138,3 +138,243 @@ body {
    font-size: 18px;
    margin-bottom: 10px;
 }
+
+
+
+
+/* hero section */
+
+
+
+
+/* card-section */
+
+.cards-bg {
+    background-image: url(./images/cards-bg.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+ }
+ 
+ 
+ .header-back {
+    display: flex;
+    justify-content: center;
+ 
+ }
+ 
+ 
+ 
+ .btn-card {
+    margin: 0px 10px;
+    margin-top: 50px;
+    border: green 2px solid;
+    border-radius: 4px;
+    background: none;
+    color: black;
+    padding: 10px 30px;
+    font-size: 15px;
+ }
+ 
+ .btn-card:hover {
+    border: rgb(255, 105, 36) 2px solid;
+    margin: 0px 10px;
+    margin-top: 50px;
+    background-color: rgb(255, 105, 36);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+ }
+ 
+ .cards {
+    border-radius: 10px;
+    border: rgb(168, 166, 166) 1px solid;
+    width: 340px;
+    height: 510px;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    margin-top: 50px;
+ }
+ 
+ .cards:hover {
+    transition: 1s;
+    transform: scale(1.04);
+    box-shadow: -2px 6px 26px -5px rgba(0, 0, 0, 1) !important;
+    border-radius: 10px;
+    border: rgb(168, 166, 166) 1px solid;
+    width: 340px;
+    height: 510px;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+ 
+    .hr {
+       width: 60px;
+       height: 5px;
+       background-color: green;
+       border-radius: 7px;
+    }
+ }
+ 
+ .cards-2 {
+    border-radius: 10px;
+    border: rgb(168, 166, 166) 1px solid;
+    width: 260px;
+    height: 510px;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    margin-top: 50px;
+ }
+ 
+ .cards-2:hover {
+    transition: 1s;
+    transform: scale(1.04);
+    box-shadow: -2px 6px 26px -5px rgba(0, 0, 0, 1) !important;
+    border-radius: 10px;
+    border: rgb(168, 166, 166) 1px solid;
+    width: 260px;
+    height: 510px;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+ 
+    .hr {
+       width: 60px;
+       height: 5px;
+       background-color: green;
+       border-radius: 7px;
+    }
+ }
+ 
+ 
+ 
+ .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 71);
+ }
+ 
+ .dot:hover {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 105, 36);
+ }
+ 
+ .hr {
+    width: 17px;
+    height: 5px;
+    background-color: green;
+    border-radius: 7px;
+ }
+ 
+ .hr-1 {
+    width: 28px;
+    height: 5px;
+    background-color: rgb(255, 105, 36);
+    border-radius: 7px;
+ }
+ 
+ @media (max-width: 1104px) {
+    .bg {
+       display: none;
+    }
+ 
+    .ab {
+       display: none;
+    }
+ 
+ 
+ }
+ 
+ 
+ @media (min-width: 991px) {
+ 
+    .hide {
+       display: none;
+    }
+ 
+ 
+ }
+ 
+ @media(min-width:576px) {
+    .hand-1 {
+       display: none;
+    }
+ 
+    .sada {
+       font-weight: 700;
+    }
+ 
+    .sada-1 {
+       font-weight: 700;
+    }
+ 
+    .footer-bg {
+       display: flex;
+    }
+ 
+    .footer-bg-1 {
+       display: none;
+    }
+ 
+ }
+ 
+ @media(max-width:576px) {
+    .hand {
+       display: none;
+    }
+ 
+    .cards {
+       width: 375px;
+    }
+ 
+    .cards:hover {
+       width: 375px;
+    }
+ 
+    .suc-word {
+       font-size: 8vw;
+    }
+ 
+    .tests {
+       top: 25%;
+       left: 2%;
+    }
+ 
+    .sada {
+       font-weight: 700;
+       font-size: 45px;
+ 
+    }
+ 
+    .sada-1 {
+ 
+       font-size: 38px;
+    }
+ 
+    .fruits {
+       margin-left: 20px;
+    }
+ 
+    .saada {
+       font-size: 18px;
+    }
+ 
+    .hidden {
+       display: none;
+    }
+ 
+    .footer-bg-1 {
+       display: flex;
+    }
+ 
+    .footer-bg {
+       display: none;
+    }
+ }
