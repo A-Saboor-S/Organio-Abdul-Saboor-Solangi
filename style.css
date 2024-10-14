@@ -378,3 +378,139 @@ body {
        display: none;
     }
  }
+
+
+
+
+
+ /* Catagerize section  */
+
+
+ 
+/* category-section */
+
+.left-right {
+    border: solid 1px rgb(255, 105, 36);
+ }
+ 
+ .left-right:hover {
+    background-color: rgb(255, 105, 36);
+ }
+ 
+ .categ {
+ 
+    border: solid 2px rgb(204, 202, 202);
+    padding: 2px 15px;
+ }
+ 
+ .categ:hover {
+    border: solid 2px green;
+    padding: 2px 15px;
+ }
+ 
+ .organic-food-pic {
+    background-image: url(./images/organic-food-pic.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+ 
+ }
+ 
+ 
+ .btn-3 {
+    margin: 20px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(28, 151, 36);
+    color: white;
+    padding: 12px 40px;
+    font-size: 20px;
+ }
+ 
+ .btn-4 {
+    margin: 20px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(28, 151, 36);
+    color: white;
+    padding: 8px 17px;
+    font-size: 13px;
+ }
+ 
+ .btn-5 {
+    margin: 20px 10px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    padding: 8px 17px;
+    font-size: 13px;
+ }
+ 
+ .btn-5:hover {
+    margin: 20px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(28, 151, 36);
+    color: white;
+    padding: 8px 17px;
+    font-size: 13px;
+ 
+ }
+ 
+ 
+ .img-bg {
+    background-color: rgb(252, 237, 230);
+ 
+ }
+ 
+ .text-2 {
+    color: rgb(255, 105, 36);
+    width: 90%;
+ }
+ 
+ 
+ 
+ .count {
+    background-image: url(./images/banner-2.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+ }
+ 
+ .contain {
+    background-color: rgb(245, 245, 245);
+    background-image: url(./images/banner-3.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+ }
+ 
+ .ct {
+    color: rgb(1, 1, 71);
+ }
+ 
+ 
+ 
+ 
+ .footer-bg {
+    background-image: url(./images/footer-banner.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+ 
+ .footer-bg-1 {
+    background-image: url(./images/footer-banner-1.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+ 
+ .name:hover {
+    cursor: pointer;
+    color: rgb(28, 151, 36);
+ }
