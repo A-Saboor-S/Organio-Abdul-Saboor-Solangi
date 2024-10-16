@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in</title>
+  <link rel="stylesheet" href="../register-page/styles.css/index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="bg-body-white">
+  <div class="border-bottom d-none d-lg-block">
+    <div class="container py-2 ">
+      <div class="d-flex  align-items-center  justify-content-between ">
+        <div>
+          <h6 class="text-black m"> Welcome to our Organic store Organico!</h6>
+        </div>
+
+        <div class="d-fle">
+
+          <a class="text-decoration-none text-black mx-2" href="">English</a>
+
+          <span class="text-black">|</span>
+
+          <a class="text-decoration-none mx-2 text-black" href=""><i class="ri-heart-fill mx-2"></i>Whishlist</a>
+
+          <span class="text-black">|</span>
+
+          <a class=" text-decoration-none me-2 border-0 py-3 px-2 bg-transparent text-black " href="">Log in</a>
+
+          <span class="text-black">|</span>
+          <a class=" text-decoration-none me-2 border-0 py-3 px-2 bg-transparent text-black "
+            href="/pages/register-page/register.html">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="container navbar navbar-expand-lg d-none d-lg-block">
+    <div class="mx-5">
+      <div class="d-flex justify-content-between align-content-center">
+        <a class="navbar-brand" href="../../index.html">
+          <img  width="130px" src="/images/logo-dark.png" class="w-50 ms-2" alt="Organic" />
+        </a>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="input-group">
+            <select
+              class="form-select shadow-none rounded-start border-end-0 py-3 fs-6 bg-body-tertiary rounded-start-5 ps-3"
+              style="max-width: 200px" aria-label="Select Category">
+              <option selected>Select a Category</option>
+              <option value="1">Fruits</option>
+              <option value="2">Vegetables</option>
+              <option value="3">Dairy</option>
+            </select>
+            <input type="text" class="form-control border-start-0 px-5 shadow-none" placeholder="Search Product"
+              aria-label="Search Product" />
+            <button class="btn btn-success rounded-end-5 px-5" type="button">
+              Search
+            </button>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center ms-5">
+          <div class="me-2 text-center">
+            <span class="fs-3">
+              <iconify-icon class="fs-1 mt-1 text-body-tertiary" icon="ic:outline-headset-mic"></iconify-icon></span>
+          </div>
+
+          <div class="d-flex  align-items-center justify-content-center">
+            <div>
+              <i class="ri-customer-service-2-line fs-3 me-1"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <span class="text-body-tertiary fw-bold">24/7 Support</span>
+              <span class="text-body-tertiary fw-bold d-none -d-lg-block">+90 157 058 4567</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="sticky-top bg-white border-bottom d-lg-none">
+    <nav class="navbar navbar-expand-lg container  pt-3">
+      <div class="container-fluid m-auto ">
+        <div class="ms-md-5"><a class="navbar-brand ms-md-5 fs-2" href="../../index.html"><img width="120px"
+              src="/images/logo-dark.png" alt=""></a>
+
+        </div>
+
+        <button class="hide d-flex justify-content-center align-items-center border-0 bg-transparent">
+          <a class="hide text-decoration-none border text-black mx-1 px-2 py-1" href=""><i
+              class="ri-user-add-line fs-2"></i></a>
+              <div class="hide  text-decoration-none border ms-2 px-2 py-1" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+              <div class="position-relative">
+                <a id="cartQuantityBadge" class="badge bg-danger text-decoration-none rounded-circle position-absolute top-0 start-100 translate-middle">0</a>
+                <a class="text-decoration-none " href="#">
+                  <i class="ri-shopping-cart-2-line text-dark fs-2"></i>
+                </a>
+              </div>
+            </div>
+            <a class="hide text-decoration-none mx-1 py-4" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling2" aria-controls="offcanvasScrolling2"> <div
+              class="hide text-decoration-none border mx-1 px-2 py-1"> <i class=" ri-align-justify py-4 text-black fs-2"></i></div>
+          </a>
+
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav  m-auto mb-2 mb-lg-0 d-flex align-items-center">
+            <li class="nav-item me-3 ms-5">
+              <a class="nav-link ms-5 active" aria-current="page" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item ms-2 ">
+              <a class="nav-link " href="#">Pages</a>
+            </li>
+            <li class="nav-item ms-2  ">
+              <a class="nav-link " href="#">Shop</a>
+            </li>
+            <li class="nav-item ms-2  ">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item ms-2   ">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item ms-2 me-1 ">
+              <a class="nav-link " href="#">Elements</a>
+            </li>
+
+            <li class="nav-item ms-5  d-flex align-items-center">
+              <a class="text-decoration-none mx-2  " href=""><i class="ri-heart-line text-dark fs-5"></i></a>
+              <a class="text-decoration-none mx-2  " href=""><i class="ri-shopping-cart-2-line text-dark fs-5"></i></a>
+              <a class="text-decoration-none mx-2  " href=""><i class="ri-search-line text-dark fs-5"></i></a>
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div style="width: 250px;" class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+    tabindex="-1" id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title ms-4 mt-4" id="offcanvasScrollingLabel"><img width="140px" src="/images/logo-dark.png"
+          alt=""></h5>
+
+    </div>
+    <div class="offcanvas-body mt-4">
+      <a class="text-decoration-none text-black" href="../../index.html">
+        <h5 class="name">Home</h5>
+      </a>
+
+      <hr>
+
+      <h5 class="name">Pages</h5>
+
+      <hr>
+
+      <h5 class="name">Shop</h5>
+
+      <hr>
+
+      <h5 class="name">Portfolio</h5>
+
+      <hr>
+
+      <h5 class="name">Blog</h5>
+
+      <hr>
+
+      <h5 class="name">Elements</h5>
+
+      <hr>
+
+    </div>
+  </div>
+  <nav class="navbar header navbar-expand-lg d-none d-lg-block">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container justify-content-center">
+      <div class="dropdown">
+        <button class="btn dropdown-toggle text-white fs-5 py-3 ps-3" type="button" id="categoryDropdown"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="iconify mt-0 fs-4" data-icon="akar-icons:three-line-horizontal"></span>
+          Select a Category
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+          <li>
+            <a class="dropdown-item" href="#"><span class="iconify" data-icon="akar-icons:apple"></span>
+              Fruits</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><span class="iconify" data-icon="akar-icons:carrot"></span>
+              Vegetables</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><span class="iconify" data-icon="akar-icons:milk"></span>
+              Dairy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+        <div class="d-flex justify-content-center">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-5 ">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5 ms-3" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5 ms-3" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5 ms-3">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5 ms-3">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold fs-5 ms-3">Elements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="mt-1">
+          <span><iconify-icon class="fs-4 mt-1 text-white" icon="iconoir:cart"></iconify-icon></span>
+        </div>
+        <a class="btn text-decoration-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <div class="ms-2">
+            <span class="fs-5 text-white">Cart:0 - $0.00</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="add-tocradd-main-card">
+
+
+    <div style="width: 250px;" class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+      id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <img width="140px" src="../../images/logo-dark.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h4></h4>
+        <div class="cart-main">
+
+
+
+
+          <div id="cartItems" class="container my-5"></div>
+          <div id="totalPrice" class="container my-5 fs-3"></div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="bg-img d-flex justify-content-center align-items-center flex-column text-center">
+    <div class="text-white fs-1 fw-bold">Sign in</div>
+    <div class="text-white fs-6 mt-2">
+      <span class="fw-bold me-2">Home </span>
+      <span>
+        <iconify-icon class="text-success" icon="vaadin:angle-double-right"></iconify-icon>
+      </span>
+      <span class="fw-bold ms-2">Sign up</span>
+    </div>
+  </div>
+
+
+
+  <div class="container mt-5 w-100 my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-10 col-sm-12">
+        <div class="card p-4">
+          <h2 class="fs-3 fw-semibold text-center">Log in to Your Account</h2>
+          <form class="mt-4">
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-white">
+                <span class="iconify text-success" data-icon="mdi:user"></span>
+              </span>
+              <input type="text" class="form-control border-start-0 shadow-none" placeholder="Username" required />
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text bg-white border-end-0">
+                <span class="iconify text-success" data-icon="mdi:lock"></span>
+              </span>
+              <input type="password" class="form-control border-start-0 shadow-none" placeholder="Password" required />
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-success py-2 rounded-5">Login</button>
+            </div>
+            <div class="text-center mt-3">
+              <small>
+                <a href="" class="text-decoration-none text-black">New to Organico?</a>
+                <a class="text-success btn-success text-decoration-none" href="../register-page/register.html">Sign
+                  up</a>
+              </small>
+            </div>
+            <div class="text-center mt-5">
+              <span><u class="text-black">Forgot your password?</u></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Successful Account Creation -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+          Log in Successfully
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bg-footer-2">
+    <div style="width: 60%;" class="bg-footer object-fit-cover d-none d-lg-block">
+      <div class="d-flex pt-4">
+        <div>
+          <img width="315px" class="imgs" src="../../images/flower.png" alt="" />
+        </div>
+        <div class="mt-4 d-none d-md-block d-lg-block">
+          <h3 class="text-center text-white fs-3 fw-bolder">
+            Subscribe to our Newsletter:
+          </h3>
+
+          <!-- Use Bootstrap's flex utilities to center the form -->
+          <div class="d-flex align-content-center justify-content-center">
+            <div class="d-flex">
+              <div class="input-text">
+                <input class="input" type="email" placeholder="your mail address..." />
+              </div>
+              <div>
+                <button class="border-0 ms-3 btn btn-success rounded-5 text-white px-5 fs-md-6 fw-bold">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: auto;" class=" bg-footer bg-success rounded-pill p-3  mx-4 d-none  d-md-block d-lg-none">
+      <div class="d-flex">
+        <div class="py-3 px-5">
+          <h1 class="text-center text-white ms-5 fw-bolder">
+            Subscribe to our Newsletter:
+          </h1>
+
+          <!-- Use Bootstrap's flex utilities to center the form -->
+          <div class="d-flex align-content-center justify-content-center">
+            <div class="d-flex">
+              <div class="input-text">
+                <input class="input mt-3 me-5" type="email" placeholder="your mail address..." />
+              </div>
+              <div>
+                <button class="border-0 btn btn-success rounded-5 ms-5 mt-3 px-5 text-white  fw-bold">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: auto;" class=" bg-footer bg-success rounded-4 p-3  mx-4  d-md-none d-lg-none">
+      <div class="d-flex">
+        <div class="py-3">
+          <h3 class="text-center text-white fs-4 fw-bolder">
+            Subscribe to our Newsletter:
+          </h3>
+
+          <!-- Use Bootstrap's flex utilities to center the form -->
+          <div class="d-flex align-content-center justify-content-center">
+            <div class="d-flex">
+              <div class="input-text">
+                <input class="input " type="email" placeholder="your mail address..." />
+              </div>
+              <div>
+                <button class="border-0 btn btn-success rounded-5 ms-2 text-white fs-md-6 fw-bold">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bg-1 mt-4">
+      <div class="container py-1">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 mt-4">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+              <img width="160px" src="/images/footer-logo.png" alt="">
+            </a>
+            <p class="pa text-white mt-1">The variety of products available at our store at the moment is vast, but we
+              still continue to widen our assortment.</p>
+            <div class="d-flex ">
+              <a class="logos-1 text-decoration-none mx-1  " href=""><i
+                  class=" align-items-center ri-facebook-fill fs-4 text-dark"></i></a>
+              <a class="logos-1 text-decoration-none mx-1  " href=""><i
+                  class=" align-items-center ri-twitter-fill fs-4 text-dark"></i></a>
+              <a class="logos-1 text-decoration-none mx-1  " href=""><i
+                  class=" align-items-center ri-basketball-line fs-4 text-dark"></i></a>
+              <a class="logos-1 text-decoration-none mx-1  " href=""><i
+                  class=" align-items-center ri-behance-fill fs-4 text-dark"></i></a>
+            </div>
+          </div>
+          <div class="col mb-3">
+          </div>
+          <div class="col mb-3 mt-4 ">
+            <h5 class="text-white">Links</h5>
+            <div class="hr-1 my-2"></div>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Testemonials</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">News</a></li>
+
+            </ul>
+          </div>
+          <div class="col mb-3 mt-4">
+            <h5 class="text-white">Official Info:</h5>
+            <div class="hr-1  my-2"></div>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 d-flex text-white"><i class="ri-map-pin-2-fill"></i> <p class="ms-2">
+                30 Commercial Road <br>
+                Fratton, Australia</p></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white"><i class="ri-phone-fill"></i> 1-888-452-1505</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-danger">Open Hours:</a></li>
+              <li class="nav-item mb-2"><a href="#" class=" nav-link p-0  text-white"><p>Mon – Sat: 8 am – 5 pm,
+               </p> <p> Sunday: CLOSED.</p></a></li>
+        
+            </ul>
+          </div>
+          <div class="col mb-3 mt-4">
+            <h5 class="text-white">My Account</h5>
+            <div class="hr-1 my-2"></div>
+            <ul class="nav flex-column mt-3">
+              <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">
+                <img width="70px" src="../../images/ftr-img-1.jpg" alt="">
+                <img width="70px" src="../../images/ftr-img-2.jpg" alt="">
+                <img width="70px" src="../../images/ftr-img-3.jpg" alt="">
+              </a></li>
+              <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">
+                <img width="70px" src="../../images/ftr-img-4.jpg" alt="">
+                <img width="70px" src="../../images/ftr-img-5.jpg" alt="">
+                <img width="70px" src="../../images/ftr-img-6.jpg" alt="">
+              </a></li>
+             
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container py-1 text-center  ">
+    <h6>© 2024 Organio – <span class="text-success">CaseThemes</span>. All rights reserved.</h6>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
