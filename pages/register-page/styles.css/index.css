@@ -1,0 +1,78 @@
+.bg-img {
+  background-image: url(../../../images/signup-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.header {
+  background-color: #76a713;
+}
+
+/* bg-footer */
+.bg-footer-2 {
+  background-image: url(../../../images/bg-footer-top.png);
+  /* background-size: cover; */
+  height: 55vh;
+  width: 100%;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-footer {
+  background-image: url(../../../images/bg-mailchimp.jpg);
+  width: 50%;
+  /* background-size: cover; */
+  height: 20vh;
+  margin: 80px 380px 0px 380px;
+  border-radius: 90px;
+}
+
+.input-text input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.input-text .input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.footer-bg-1 {
+
+  width: 100%;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.logos-1 {
+  background-color: white;
+  border-radius: 20px;
+  border: black solid 1px;
+  padding: 0px 7px;
+}
+
+
+.logos-1:hover {
+  background-color: rgb(175, 209, 153);
+  border-radius: 20px;
+  border: black solid 1px;
+  padding: 0px 7px;
+}
+
+.pa {
+  font-size: 12px;
+}
+
+
+.name:hover {
+  cursor: pointer;
+  color: rgb(28, 151, 36);
+}
