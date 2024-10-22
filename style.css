@@ -331,15 +331,15 @@ body {
     }
  
     .cards {
-       width: 375px;
+       width: 345px;
     }
  
     .cards:hover {
-       width: 375px;
+       width: 345px;
     }
  
     .suc-word {
-       font-size: 8vw;
+       font-size: 7vw;
     }
  
     .tests {
