@@ -17,7 +17,7 @@ form.addEventListener('submit', function (event) {
 
 
   setTimeout(function () {
-    window.location.href = 'http://127.0.0.1:5500/index.html';
+    window.location.href = 'http://127.0.0.1:5500/Organio-Abdul-Saboor-Solangi/index.html';
   }, 2000);
 } else {
         alert('Please enter both username and password!');
